@@ -19,7 +19,6 @@ Do you want to Download from official site Xview , you need to register an accou
 ![image](https://github.com/user-attachments/assets/433b385a-5441-445b-841c-8625a60a50b9)
 
 
-https://github.com/user-attachments/assets/67fbbacf-24fa-47f6-b169-32f03abe775d
 no models applied 
 ![image](https://github.com/user-attachments/assets/8357fecf-7d2c-4882-93e8-f6538288bc52)
 Using Yolov8 model
