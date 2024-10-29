@@ -1,0 +1,44 @@
+
+
+###!!!!!!!!!!!There is a bug and the solution is the above : Define the path of the folders that contain images and labels for train and validation
+
+#I made a folder in Desktop named xView11, this is the internal structure of the folder.
+
+#C://Users//eeean//OneDrive//Desktop//xViewv11/
+#├── data.yaml                 # Dataset configuration file
+#├── idata/                    # Main data directory
+#│   ├── train/                # Training images and labels directory
+#│   │   ├── images/           # Training images
+#│   │   │   ├── image1.jpg    # Example training image
+#│   │   │   ├── image2.jpg    # Example training image
+#│   │   │   └── ...           # More training images
+#│   │   └── labels/           # Training labels
+#│   │       ├── image1.txt    # Labels for image1.jpg
+#│   │       ├── image2.txt    # Labels for image2.jpg
+#│   │       └── ...           # More training labels
+#│   ├── valid/                # Validation images and labels directory
+#│   │   ├── images/           # Validation images
+#│   │   │   ├── image1.jpg    # Example validation image
+#│   │   │   ├── image2.jpg    # Example validation image
+#│   │   │   └── ...           # More validation images
+#│   │   └── labels/           # Validation labels
+#│   │       ├── image1.txt    # Labels for image3.jpg
+#│   │       ├── image2.txt    # Labels for image4.jpg
+#│   │       └── ...           # More validation labels
+#│   └── test/                 # (Optional) Testing images and labels directory
+#│       ├── images/           # Testing images
+#│       │   ├── image1.jpg    # Example testing image
+#│       │   ├── image2.jpg    # Example testing image
+#│       │   └── ...           # More testing images
+#│       └── labels/           # Testing labels
+#│           ├── image1.txt     # Labels for image5.jpg
+#│           ├── image2.txt     # Labels for image6.jpg
+#│           └── ...           # More testing labels
+#
+#   so if you made everything as above , write this on a new file and save it as data.yaml
+
+path : C://Users//eeean//OneDrive//Desktop//xViewv11
+train: idata//train//images
+val: idata//valid//images
+nc: 16  # The Xview dataset gives 16 classes ,here we define what we want to see in the output
+names: ['Cement Mixer', 'Construction Site', 'Container Crane', 'Crane Truck', 'Dump Truck', 'Engineering Vehicle', 'Excavator', 'Front loader-Bulldozer', 'Ground Grader', 'Haul Truck', 'Mobile Crane', 'Pickup Truck', 'Reach Stacker', 'Scraper-Tractor', 'Straddle Carrier', 'Tower crane']
