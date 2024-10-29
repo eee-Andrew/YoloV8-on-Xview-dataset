@@ -24,3 +24,7 @@ if __name__ == "__main__":
     model = YOLO("yolov8n.yaml")  # use yolov8n.pt, yolov8s.pt, etc., depending on your needs
 
     results = model.train(data="data.yaml", epochs=100) # I dont use any batch size, it uses default for mine GPU
+
+
+
+# happy coding
