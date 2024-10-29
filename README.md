@@ -9,7 +9,8 @@ Ground Grader, Haul Truck, Mobile Crane, Pickup Truck, Reach Stacker, Scraper-Tr
 This structured approach will facilitate effective training and evaluation of the YOLO model for object detection tasks related to construction environments.
 ___________________________________________________________________________
 Documentation https://docs.ultralytics.com/datasets/detect/xview/
-yaml file from official repository https://github.com/ultralytics/ultralytics/blob/main/ultralytics/cfg/datasets/xView.yaml
+___________________________________________________________________________
+Github: The original yaml file from official repository https://github.com/ultralytics/ultralytics/blob/main/ultralytics/cfg/datasets/xView.yaml
 ___________________________________________________________________________
 Want to Download the dataset from kaggle (21gb) ? Press Here : [Xview Dataset](https://www.kaggle.com/datasets/hassanmojab/xview-dataset)
 ___________________________________________________________________________
