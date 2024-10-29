@@ -13,4 +13,4 @@ yaml file from official repository https://github.com/ultralytics/ultralytics/bl
 ___________________________________________________________________________
 Want to Download the dataset from kaggle (21gb) ? Press Here : [Xview Dataset](https://www.kaggle.com/datasets/hassanmojab/xview-dataset)
 ___________________________________________________________________________
-Want to Download from official site Xview , you need to register an account [here](https://challenge.xviewdataset.org/data-download)
+Want to Download from official site Xview , you need to register an account [Xview Dataset](https://challenge.xviewdataset.org/data-download)
