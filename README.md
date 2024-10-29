@@ -12,8 +12,15 @@ Documentation https://docs.ultralytics.com/datasets/detect/xview/
 ___________________________________________________________________________
 Github: The original yaml file from official repository https://github.com/ultralytics/ultralytics/blob/main/ultralytics/cfg/datasets/xView.yaml
 ___________________________________________________________________________
-Want to Download the dataset from kaggle (21gb) ? Press Here : [Xview Dataset](https://www.kaggle.com/datasets/hassanmojab/xview-dataset)
+Do you want to Download the dataset from kaggle (21gb) ? Press Here : [Xview Dataset](https://www.kaggle.com/datasets/hassanmojab/xview-dataset)
 ___________________________________________________________________________
-Want to Download from official site Xview , you need to register an account [Xview Dataset](https://challenge.xviewdataset.org/data-download)
+Do you want to Download from official site Xview , you need to register an account [Xview Dataset](https://challenge.xviewdataset.org/data-download)
 ![image](https://github.com/user-attachments/assets/29d81d60-f582-42d6-8ada-827da67cc647)
 ![image](https://github.com/user-attachments/assets/433b385a-5441-445b-841c-8625a60a50b9)
+
+
+https://github.com/user-attachments/assets/67fbbacf-24fa-47f6-b169-32f03abe775d
+no models applied 
+![image](https://github.com/user-attachments/assets/8357fecf-7d2c-4882-93e8-f6538288bc52)
+Using Yolov8 model
+![image](https://github.com/user-attachments/assets/61e2d55c-6ed8-4f15-8491-6f98afd57045)
