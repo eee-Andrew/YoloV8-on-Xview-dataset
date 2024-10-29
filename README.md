@@ -1,6 +1,6 @@
 # YoloV8-on-Xview-dataset
 ___________________________________________________________________________
-To set up an object detection project using YOLO, we will utilize the dataset located at C://Users//eeean//OneDrive//Υπολογιστής//xViewv11. 
+To set up an object detection project using YOLO, we will utilize the dataset located at C:xxxx//xViewv11. 
 The training images are organized in the directory idata//train//images, while the validation images are found in idata//valid//images. 
 Although the test images are not specified, they could potentially be added later in the idata//test//images directory. The dataset consists of 16 classes, 
 each representing different types of vehicles and equipment commonly found on construction sites. 
