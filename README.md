@@ -16,10 +16,9 @@ Do you want to Download the dataset from kaggle (21gb) ? Press Here : [Xview Dat
 ___________________________________________________________________________
 Do you want to Download from official site Xview , you need to register an account [Xview Dataset](https://challenge.xviewdataset.org/data-download)
 ![image](https://github.com/user-attachments/assets/29d81d60-f582-42d6-8ada-827da67cc647)
-![image](https://github.com/user-attachments/assets/433b385a-5441-445b-841c-8625a60a50b9)
-
-
-no models applied 
+___________________________________________________________________________
+NO MODELS APPLIED
 ![image](https://github.com/user-attachments/assets/8357fecf-7d2c-4882-93e8-f6538288bc52)
-Using Yolov8 model
-![image](https://github.com/user-attachments/assets/61e2d55c-6ed8-4f15-8491-6f98afd57045)
+___________________________________________________________________________
+YOLO V8 nano with Xview dataset
+[image](https://github.com/user-attachments/assets/61e2d55c-6ed8-4f15-8491-6f98afd57045)
