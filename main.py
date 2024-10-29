@@ -17,7 +17,9 @@
                            # For 8GB VRAM (e.g., NVIDIA RTX 3060): Start with: 32 and increase to 64 if your system isnt lagging or even 128 (Multiple of Powers of 2)
                            # example results = model.train(data="data.yaml", epochs=100, batch_size = 32)
 from ultralytics import YOLO
-
+                           # If your script contains long-running processes (like training a model) and you import that script in another module,
+                           # all the code outside of the if __name__ == "__main__": block will execute immediately. 
+                           # This can lead to unexpected behavior, including freezing, if the imported script starts training the model without your intention. Thats why I use{__name__ == "__main__"}
 if __name__ == "__main__":
     # Initialize the YOLO model with a pre-trained model, like the YOLOv8 nano model
     
