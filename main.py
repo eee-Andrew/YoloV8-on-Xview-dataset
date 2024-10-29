@@ -1,8 +1,7 @@
-#This library comes with the models v8 nano /large /XL https://docs.ultralytics.com/usage/python/
-    # Train the model with your dataset
+
     # When training a model using frameworks like YOLOv7 or YOLOv8, you can specify various parameters, 
     #including epochs and batch.  
-                                         # Parameters
+                                         # Parameters for model.train(     ) function
                     #data: Path to the YAML file containing the dataset configuration.
                     #epochs: Number of training epochs (iterations over the entire dataset).
                     #batch: Number of samples processed before the model's internal parameters are updated.
@@ -16,6 +15,8 @@
                            # For 8GB VRAM (e.g., NVIDIA RTX 3060): Start with: 16 and increase to 32 if your system isnt lagging
                            # For 8GB VRAM (e.g., NVIDIA RTX 3060): Start with: 32 and increase to 64 if your system isnt lagging or even 128 (Multiple of Powers of 2)
                            # example results = model.train(data="data.yaml", epochs=100, batch_size = 32)
+
+#This library comes with the models v8 nano /large /XL https://docs.ultralytics.com/usage/python/
 from ultralytics import YOLO
                            # If your script contains long-running processes (like training a model) and you import that script in another module,
                            # all the code outside of the if __name__ == "__main__": block will execute immediately. 
@@ -26,6 +27,8 @@ if __name__ == "__main__":
     model = YOLO("yolov8n.yaml")  # use yolov8n.pt, yolov8s.pt, etc., depending on your needs
 
     results = model.train(data="data.yaml", epochs=100) # I dont use any batch size, it uses default for mine GPU
+
+
 
 
 
