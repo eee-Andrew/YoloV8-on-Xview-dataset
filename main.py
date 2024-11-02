@@ -17,19 +17,20 @@
                            # example results = model.train(data="data.yaml", epochs=100, batch_size = 32)
 
 #This library comes with the models v8 nano /large /XL https://docs.ultralytics.com/usage/python/
-from ultralytics import YOLO
                            # If your script contains long-running processes (like training a model) and you import that script in another module,
                            # all the code outside of the if __name__ == "__main__": block will execute immediately. 
                            # This can lead to unexpected behavior, including freezing, if the imported script starts training the model without your intention. Thats why I use{__name__ == "__main__"}
+    # Initialize the YOLO model with a pre-trained model, like the YOLOv8 nano model 
+
+from ultralytics import YOLO
 if __name__ == "__main__":
-    # Initialize the YOLO model with a pre-trained model, like the YOLOv8 nano model
     
     model = YOLO("yolov8n.yaml")  # use yolov8n.pt, yolov8s.pt, etc., depending on your needs
 
-    results = model.train(data="data.yaml", epochs=100) # I dont use any batch size, it uses default for mine GPU
+    results = model.train(data="data.yaml", epochs=100)
 
-
-
+#           I dont use any batch size, it uses default for mine GPU
+#           !!!!!!!!!! if you got errors check the gaps, like no model found , python uses gaps to identify where should search for model 
 
 # just hit the play button
 # happy coding
